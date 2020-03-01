@@ -6,7 +6,7 @@
 
 #Carousel{
 	width: 100%;
-	height: 280px;
+	height: 610px;
 }
 
 .carousel-slider .carousel-indicators li {
@@ -21,11 +21,8 @@
 	background: #ffc107;
 }
 
-.carousel-inner{
-	margin-top: 20px;
-}
-
 .carousel-item h2{
+	margin-top: 20px;
 	font-size: 26px;
     text-transform: uppercase;
     font-weight: bold;
