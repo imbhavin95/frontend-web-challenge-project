@@ -1,0 +1,55 @@
+.carousel-slider .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+}
+
+#Carousel{
+	width: 100%;
+	height: 280px;
+}
+
+.carousel-slider .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.carousel-slider .carousel-indicators .active {
+	background: #ffc107;
+}
+
+.carousel-inner{
+	margin-top: 20px;
+}
+
+.carousel-item h2{
+	font-size: 26px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 34px;
+}
+.carousel-item p{
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.skip-button{
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+    font-size: 18px;
+}
+
+.skip-button a{
+	color: #bbb;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.skip-button a:hover, .skip-button a:focus{
+	color: #000;
+	cursor: pointer;
+	text-decoration: none;
+}
