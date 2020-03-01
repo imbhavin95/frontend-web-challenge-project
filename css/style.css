@@ -12,8 +12,9 @@
 .carousel-slider .carousel-indicators li {
     background: #a3a3a3;
     border-radius: 50%;
-    width: 8px;
-    height: 8px;
+    width: 10px;
+    height: 0px;
+    border-bottom: 1px solid transparent;
 }
 
 .carousel-slider .carousel-indicators .active {
